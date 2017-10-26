@@ -3,5 +3,6 @@ def display_board
   row = ["   ","|", "   ","|", "   "]
   line = ["-----------"]
   board = [row + line + row + line + row]
-  puts board
+  print board
 end
+display_board
