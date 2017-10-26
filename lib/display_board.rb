@@ -4,5 +4,6 @@ def display_board
   line = ["-----------"]
   board = [row + line + row + line + row]
   puts board
+  puts row
 end
 display_board
